@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 import java.sql.Timestamp
 
 @Entity(tableName = "notes_table")
-data class Note(
+data class NoteData(
     @PrimaryKey(autoGenerate = true)
     val id: Int,
 
